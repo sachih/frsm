@@ -19,5 +19,6 @@ endif()
 
 add_subdirectory(src/libfrsm)
 if(LCM_FOUND)
-    add_subdirectory(src/frsm-lcm)
+  add_subdirectory(src/frsm-lcm)
+  add_subdirectory(src/renderer)
 endif()
