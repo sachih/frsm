@@ -19,10 +19,10 @@
 extern "C" {
 #endif
 
-  void pixel_map_pixel_map_add_renderer_to_viewer(BotViewer *viewer, int render_priority, 
+  void pixel_map_add_renderer_to_viewer(BotViewer *viewer, int render_priority, 
         const char* lcm_channel, const char* renderer_name);
 
-  void pixel_map_pixel_map_add_renderer_to_viewer_lcm(BotViewer *viewer, int render_priority, lcm_t *lcm, 
+  void pixel_map_add_renderer_to_viewer_lcm(BotViewer *viewer, int render_priority, lcm_t *lcm, 
         const char* lcm_channel, const char* renderer_name);
 
 
